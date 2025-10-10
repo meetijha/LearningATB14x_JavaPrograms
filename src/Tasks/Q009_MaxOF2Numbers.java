@@ -2,7 +2,7 @@ package Tasks;
 
 import java.util.Scanner;
 
-public class Q9_MaxOF2Numbers {
+public class Q009_MaxOF2Numbers {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter first number");

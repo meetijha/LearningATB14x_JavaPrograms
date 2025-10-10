@@ -2,7 +2,7 @@ package Tasks;
 
 import java.util.Scanner;
 //Program to find first letter of each word in string
-public class Q5_First_LetterOfEach_Word_In_String {
+public class Q005_First_LetterOfEach_Word_In_String {
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);
         System.out.println("Enter the string");

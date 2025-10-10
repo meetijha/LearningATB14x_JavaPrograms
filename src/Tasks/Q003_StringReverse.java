@@ -2,7 +2,7 @@ package Tasks;
 
 import java.util.Scanner;
 //program to reverse a string
-public class Q3_StringReverse {
+public class Q003_StringReverse {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter the string");

@@ -3,7 +3,7 @@ package Tasks;
 import java.util.Scanner;
 //Program to find number of word ina string
 
-public class Q4_Number_Of_Words_InString {
+public class Q004_Number_Of_Words_InString {
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);
         System.out.println("Enter the string");

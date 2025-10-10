@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*I want you to find the second maximum number in this array
 int[] numbers = {12, 34, 10, 1, 100, 3, 4, 32};// O/P → 34 ,don’t use sorting function. */
 
-public class Q6_Second_Highest_Number_InArray {
+public class Q006_Second_Highest_Number_InArray {
     public static void main(String[] args) {
         int arr[]=takeArrayInput();
         System.out.println("Second highest number in this array is " + getSecongHighestNumber(arr));

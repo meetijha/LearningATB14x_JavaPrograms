@@ -2,7 +2,7 @@ package Tasks;
 
 import java.util.Scanner;
 
-public class Q11_Legal_Age_To_Vote {
+public class Q011_Legal_Age_To_Vote {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter the age");

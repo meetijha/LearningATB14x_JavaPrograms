@@ -1,9 +1,8 @@
 package Tasks;
 
-import java.util.Locale;
 import java.util.Scanner;
 
-public class Q10_Char_Is_Vowel_Or_Consonant {
+public class Q010_Char_Is_Vowel_Or_Consonant {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the character");
