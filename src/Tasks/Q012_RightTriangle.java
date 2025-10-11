@@ -15,7 +15,7 @@ public class Q012_RightTriangle {
 
         for(int i=0;i<n;i++)// Traversing rows
         {
-            for(int j=0;j<=i;j++)// traversing cloulmn
+            for(int j=0;j<=i;j++)// traversing column
             {
                 System.out.print("*");
             }
