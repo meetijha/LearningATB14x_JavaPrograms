@@ -2,7 +2,7 @@ package Tasks;
 
 import java.util.Scanner;
 
-/*Take input from user about n and print the triangle pattern.
+/*Take input from user about n and print the triangle pattern.Eg n=3
         *
         **
         ****/
