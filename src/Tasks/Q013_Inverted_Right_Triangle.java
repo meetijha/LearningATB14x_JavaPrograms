@@ -15,9 +15,9 @@ public class Q013_Inverted_Right_Triangle {
         System.out.println("Enter the depth of triangle");
         int n= scanner.nextInt();
 
-        for(int i=n;i>=0;i--)// Traversing rows
+        for(int i=n;i>=1;i--)// Traversing rows
         {
-            for (int j=i;j>=0;j--)//Traversing columns
+            for (int j=i;j>=1;j--)//Traversing columns
             {
                 System.out.print("*");
             }

@@ -20,7 +20,7 @@ public class Q006_Second_Highest_Number_InArray {
                 secHighest = highest;
                 highest = a;
 
-            } else if (a > secHighest && a < highest) {
+            } else if (a > secHighest && a !=highest) {
                 secHighest = a;
             }
         }
