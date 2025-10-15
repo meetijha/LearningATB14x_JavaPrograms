@@ -18,7 +18,7 @@ public class Lab170_MultiLevel {
         gf.home();
 
         // Dynamic Dispatch
-        GrandFather g1 = new Son();
+        GrandFather g1 = new Son();// this will Access child class method in case of method overriding
         Father f1  = new Son();
         //Son s1 = new GrandFather();
         //Son s2 = new Father();
