@@ -25,14 +25,11 @@ public class Challenge10_Simple_Calculator {
         op = scanner.next().charAt(0);
 
         switch (op) {
-            case '+':
-                result = num1 + num2;
+            case '+': result = num1 + num2;
                 break;
-            case '-':
-                result = num1 - num2;
+            case '-': result = num1 - num2;
                 break;
-            case '*':
-                result = num1 * num2;
+            case '*': result = num1 * num2;
                 break;
             case '/':
                 if (num2 == 0) {
