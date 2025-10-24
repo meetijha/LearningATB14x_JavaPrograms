@@ -12,5 +12,8 @@ public class Q030_NumberDivisibleBy_5_And_11_Checker {
         {
             System.out.println("Number is divisible by both 5 and 11");
         }
+        else{
+            System.out.println("Not divisible by 5 and 11");
+        }
     }
 }

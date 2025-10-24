@@ -20,13 +20,11 @@ public class Q031_Days_Into_Year_Month_And_Days_Converter {
         int year =0;
         int month=0;
         int days=0;
-        if(totalDays>=365)
+        if(totalDays>0)
         {
             year=totalDays/365;
             totalDays=totalDays%365;
-        }
-        if(totalDays>=30)
-        {
+
             month=totalDays/30;
             totalDays=totalDays%30;
         }
