@@ -12,7 +12,7 @@ Senior Citizen: Age 65 and older
 
 import java.util.Scanner;
 
-public class Q33_Senior_Citizen_Checker {
+public class Q033_Senior_Citizen_Checker {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter age: ");
