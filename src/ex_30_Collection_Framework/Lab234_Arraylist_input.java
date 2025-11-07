@@ -13,7 +13,9 @@ public class Lab234_Arraylist_input {
             System.out.println("Enter the name");
             String name = scanner.next();
             names.add(name);
-            scanner.nextLine();
+            scanner.nextLine();// required as we have used Scanner.next() before
+            // which does not consume \n . so above statement is required to consume that.
+            // Work around is always use Scanner.nextLine()
 
             System.out.println("Do you want to enter another name Y/N");
             continueInput = scanner.nextLine();
